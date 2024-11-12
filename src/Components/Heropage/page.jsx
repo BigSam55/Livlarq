@@ -11,7 +11,7 @@ export default function Heropage() {
         data-aos-duration="1000">
           <p>Drink briliantly</p>
           <h1>Bet your bottle</h1>
-          <h1>can't do this</h1>
+          <h1>cannot do this</h1>
           <p>
             Discover the science of PureVis™ technology for a germ-free
           </p>{" "}
@@ -33,7 +33,7 @@ export default function Heropage() {
         <div className={style.heroText}>
           <p>Drink briliantly</p>
           <h1>Bet your bottle</h1>
-          <h1>can't do this</h1>
+          <h1>cannot do this</h1>
           <p>
             Discover the science of PureVis™ technology for a germ-free
           </p>{" "}
