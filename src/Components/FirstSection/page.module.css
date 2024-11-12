@@ -1,0 +1,130 @@
+.container{
+    padding: 4rem 4rem;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+   
+}
+.star{
+    width: 87%;
+    height: auto;
+   
+   
+}
+.star h1{
+    color: rgb(21,58,91);
+    font-size: 3rem;
+}
+.star p{
+    color: rgb(21,58,91);
+    font-size: 1rem;
+    padding-top: 8px;
+}
+.star p:hover{
+    color: gray;
+    
+}
+.starIcon{
+    color: rgb(243,117,109);
+    font-size: 26px;
+    padding-top: 8px;
+}
+.cardContainer{
+    
+    padding-left: 4rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    gap: 2rem;
+}
+.shop{
+    padding: 3rem 3rem;
+   
+}
+.shop h1{
+    font-size: 3rem;
+    padding-bottom:3rem ;
+    color: rgb(21,58,91);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.shopItem{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    box-sizing: border-box;
+    
+}
+.itemImage{
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+
+.itemImage img:hover{
+    transform: scale(1.02);
+    transition: all ease-in-out 900ms;
+    transform-origin: center;
+    border-radius: 15px;
+
+}
+.item h2,
+.item p{
+   text-align: center;
+   padding-top: 1rem;
+   color: rgb(21,58,91);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.item p{
+   text-decoration: underline;
+   font-size: 18px;
+   
+}
+.fact{
+    padding: 4rem 4rem;
+    
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(251,242,242);
+    color: rgb(21,58,91);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 3rem;
+
+
+}
+.contentdiv{
+    padding: 2rem;
+    justify-content: center;
+    width: 350px;
+    
+}
+.contentdiv h2{
+    font-size: 1rem,;
+    padding: 1rem;
+    text-align: center;
+}
+.contentdiv p{
+    font-size: 3rem,;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+.Cicon{
+    font-size: 40px;
+    color: rgb(243,118,110);
+}
+div .Cicon{
+    width: 100%;
+    
+}

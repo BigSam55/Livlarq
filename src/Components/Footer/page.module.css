@@ -1,0 +1,121 @@
+.footer{
+   background-color: rgb(245,249,252);
+   color: rgb(21,58,91);
+   height: 80vh;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding-bottom: 4rem;
+   
+}
+.fContainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 0px;
+    gap: 5rem;
+   
+}
+.fContent h2{
+    font-size: 2.3rem;
+    width: 300px;
+    padding-bottom: 10px;
+
+}
+.fContent p{
+    font-size: 1.24rem;
+    line-height: 2rem;
+    width: 300px;
+}
+.fContent input{
+    display: block;
+    width: 280px;
+    height: 40px;
+    padding: 7px 14px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    border: none;
+    background-color: white;
+    position: relative;
+    margin-top: 25px;
+
+}
+.fContent input::placeholder{
+    font-size: 14px;
+    margin-right: -20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.arrow{
+    background-color: rgb(245,249,252) ;
+    font-size: 25px;
+    position: absolute;
+    left: 20%;
+    margin-top: -31px;
+    border-radius: 12px;
+}
+.ficons{
+    color: inherit;
+    width: 20px;
+    height: 20px;
+    margin: 15px 25px 22px 1px;
+   background-color: white;
+   border-radius: 25px;
+   padding: 10px;
+}
+.faq a{
+    width: 100%;
+    line-height: 3.5rem;
+    display: block;
+    font-size: 1.21rem;
+    text-decoration: none;
+    color: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+.basq a{
+    width: 100%;
+   line-height: 3.5rem;
+    display: block;
+    font-size: 1.21rem;
+    text-decoration: none;
+    color: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.basq a:hover{
+    color: gray;
+}
+.faq a:hover{
+    color: gray;
+}
+.foot{
+    display: inline-flex;
+    padding-left: 4rem;
+    align-items: center;
+   
+
+  
+}
+.flag{
+    align-items: center;
+    display: inline-flex;
+    width: 180px;
+    height: 45px;
+    padding: 8px 15px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    border: none;
+    background-color: white;
+    gap: 10px;
+    color: inherit;
+    font-size: 1rem ;
+    font-weight: 600;
+}
+.foot a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: inherit;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
